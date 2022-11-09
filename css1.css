@@ -30,12 +30,32 @@ html, body {
     animation: heart 1.4s linear infinite;
 }
 
+#content .desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content .descc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content .qr_hg {
+    display: flex;
+    /* margin: auto; */
+    width: 150px;
+    height: 150px;
+    padding-left: 100px;
+}
+
 #content .img_hg {
     display: flex;
     margin: auto;
     width: 380px;
     height: 380px;
-    padding-top: 150px;
+    padding-top: 160px;
     animation: heart 1.4s ease infinite;
 }
 
@@ -43,8 +63,9 @@ html, body {
     font-size: 20px;
     text-align: center;
     color: #a76467;
-    margin-bottom: 7px;
-    padding-top: 80px;
+    margin: 0px;
+    /* padding-top: 80px; */
+    padding-left: 260px;
     position: relative;
 }
 #content .description2 {
@@ -52,6 +73,7 @@ html, body {
     font-size: 15px;
     text-align: center;
     color: #664243;
+    padding-left: 260px;
     font-weight: 800;
     position: relative;
 }
