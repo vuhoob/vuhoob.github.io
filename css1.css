@@ -44,7 +44,6 @@ html, body {
 
 #content .qr_hg {
     display: flex;
-    /* margin: auto; */
     width: 150px;
     height: 150px;
     padding-left: 100px;
